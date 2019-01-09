@@ -42,8 +42,9 @@ public class Satelite {
 		}
 		
 		public void variaPosicion(double variap, double variam) {
-			this.paralelo = this.paralelo + variap;
-			this.meridiano = this.meridiano + variam;
+			
+			this.meridiano=this.meridiano + variam;
+			this.paralelo=this.paralelo + variap;
 		}
 	}
 
