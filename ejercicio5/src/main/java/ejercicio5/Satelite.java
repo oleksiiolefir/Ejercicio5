@@ -40,6 +40,13 @@ public class Satelite {
 			return orbita; 
 					
 		}
+		
+		public void variaPosicion(double variap,double variam ){
+			
+			this.meridiano=this.meridiano + variam;
+			this.paralelo=this.paralelo + variap;
+			
+		}
 	}
 
 
