@@ -45,6 +45,7 @@ public class Satelite {
 			this.meridiano=this.meridiano + variam;
 			this.paralelo=this.paralelo + variap;
 		}
+		
 	}
 
 

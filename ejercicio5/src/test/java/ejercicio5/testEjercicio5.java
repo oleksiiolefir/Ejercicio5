@@ -46,4 +46,23 @@ public class testEjercicio5 {
 		assertEquals(sateliteTest3.paralelo,123,0);
 		assertEquals(sateliteTest3.distancia_tierra,567,0);
 	}
+	@Test
+	public void testOrbita() {
+		
+		boolean orbitaTest = true;
+		double distancia_tierraTest = 0;
+		
+		equals(orbitaTest==false);
+
+	}
+	@Test
+	public void testOrbita2() {
+		
+		boolean orbitaTest2 =true;
+		double distancia_tierraTest = 50;
+		
+		equals(orbitaTest2==true);
+
+	}
+	
 }
