@@ -46,4 +46,18 @@ public class testEjercicio5 {
 		assertEquals(sateliteTest3.paralelo,123,0);
 		assertEquals(sateliteTest3.distancia_tierra,567,0);
 	}
+	
+	@Test
+	public void variaAlturaTest()
+	{
+		double desplazamientoTest = 50;
+		
+		meridiano = 10;
+		paralelo = 20;
+		distancia_tierra = 40;
+		Satelite sateliteTest4 = new Satelite(meridiano,paralelo,distancia_tierra);
+		
+		sateliteTest4.variaAltura(desplazamientoTest);
+		assertEquals(sateliteTest4.distancia_tierra,90,0);
+	}
 }
